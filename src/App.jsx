@@ -5,7 +5,7 @@ import axios from 'axios';
 
 // API Configuration
 const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://oking-production.up.railway.app'  // ⚠️ REPLACE THIS WITH YOUR RAILWAY URL
+  ? 'oking-production.up.railway.app'  // ⚠️ REPLACE THIS WITH YOUR RAILWAY URL
   : 'http://localhost:3000';
 
 // Create axios instance with credentials
